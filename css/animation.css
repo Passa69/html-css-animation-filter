@@ -94,7 +94,21 @@
 }
 
 /* esercizio 11 */
+.ex-11-icon:hover {
+    animation: spinaLittlebit 2s linear;
+}
 
+@keyframes spinaLittlebit {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(335deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /* esrcizio 12 */
 

@@ -83,7 +83,15 @@
 }
 
 /* esercizio 10 */
+.ex-10-icon {
+    animation: spins 1s linear infinite;
+}
 
+@keyframes spins {
+    0% {
+        transform: rotate(1turn);
+    }
+}
 
 /* esercizio 11 */
 
